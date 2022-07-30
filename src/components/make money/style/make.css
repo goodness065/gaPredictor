@@ -1,0 +1,144 @@
+.make-money-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #F2F4FB;
+}
+
+.make-left-con, .make-right-con{
+    width: 50%;
+}
+
+.make-money-con h6 {
+    font-size: 16px;
+    padding-bottom: 12px;
+    padding-top: 15px;
+}
+
+.make-money-con h3 {
+    font-size: 50px;
+    padding-bottom: 17px;
+    font-weight: 500;
+}
+
+.make-money-con h4 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.make-money-con p {
+    font-size: 17px;
+    color: #545454;
+    padding-bottom: 3px;
+}
+
+.make-money-con a {
+    text-decoration: none;
+    color: lightseagreen;
+}
+
+.playstore-con{
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+}
+
+.playstore-con img{
+    width: 170px;
+}
+
+.firstrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.secondrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+}
+
+@media (min-width: 0px) and (max-width: 992px){
+    .make-money-con{
+        display: block;
+        padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+    .make-left-con, .make-right-con{
+        width: 100%;
+    }
+
+    .make-left-con h6 {
+        font-size: 16px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .make-right-con h6 {
+        font-size: 16px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    .make-money-con h3 {
+        font-size: 30px;
+        padding-bottom: 10px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .make-money-con h4 {
+        font-size: 20px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .make-money-con p {
+        font-size: 16px;
+        color: #545454;
+        padding-bottom: 3px;
+    }
+
+    .playstore-con{
+        display: flex;
+        justify-content: center;
+    }
+
+    .firsttext{
+        margin-right: 5px;
+        margin-top: 30px;
+    }
+
+    .secondtext{
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 600px){
+    .playstore-con img{
+        width: 50%;
+    }
+
+    .firstrow, .secondrow{
+        display: block;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 300px){
+
+    .playstore-con img{
+        width: 50%;
+    }
+
+    .firstrow, .secondrow{
+        display: block;
+    }
+}
